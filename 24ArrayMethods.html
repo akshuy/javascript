@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=["Manan","Raman","Chaman","Akshay"]
+        var b=["Aksh","Ram","aman","shyam"]
+        document.write(a+"<br>")
+        a.sort(); // sorting
+        document.write(a+"<br>")
+        a.reverse(); // reverse
+        document.write(a+"<br>")
+
+        a.pop();
+        document.write(a+"<br>")
+
+        a.push("Ajay");
+        document.write(a+"<br>")
+
+        a.push("Akshay")
+        document.write(a+"<br>")
+
+        a.shift() // remove  1st index
+        document.write(a+"<br>")
+
+        a.unshift("Krish") // add at 1st index
+        document.write(a+"<br>")
+
+        var c = a.concat(b)  // concate both array
+        document.write(c+"<br>")
+
+        d = c.join(" @")   // join
+        document.write(d+"<br>")
+
+        x = a.slice(0,4)
+        document.write(x+"<br>")
+
+        a.splice(2,0,"Kamal"); //add value
+        document.write(a+"<br>")
+
+        a.splice(2,1); // delete value
+        document.write(a+"<br>")
+
+        document.write(Array.isArray(a)+"<br>") // ckecking a is array or not
+
+        var f = a.indexOf("Akshay")
+        document.write(f+"<br>")
+
+        v=a.includes("Chomu") // check Chomu is present in a or not and it is casesencitive
+        document.write(v+"<br>") 
+
+        
+    </script>
+</body>
+</html>
