@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = {firstname : "Akshay",secondname : "Sharma",Class : "MCA",
+            favlanguage : ["Python","Javascript","c","c++"],
+            salary : function(){
+                return 30000;
+            },
+            course : {language : "Python", algorithm : "DSA", framework : "Django"},
+            fullname : function(){
+                return this.firstname + " "+this.secondname
+            }
+    }
+        document.write(a.favlanguage[1]+"<br><br>")    
+        document.write(a.favlanguage+"<br><br>")    
+        document.write(a.salary()+"<br><br>")    
+        document.write(a.course.algorithm+"<br><br>")    
+
+
+        document.write(a.fullname()+"<br><br>")
+    </script>
+</body>
+</html>
