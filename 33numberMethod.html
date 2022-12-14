@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = "99"
+        var b = "90 99"
+        // it convert string into number
+        var num = Number(a);
+        document.write(num+10);
+
+        // it took the value before space
+        var num = parseInt(b);
+        document.write("<br>"+ num);
+
+        // for fload value
+        var c = "303.3"
+        var num = parseFloat(c);
+        document.write("<br>"+ num);
+
+        // returns boolen value after checking the given is finite or not
+        var num = isFinite(b);
+        document.write("<br>"+ num);
+
+        // return boolen after checking the given is interger or not
+        var num = Number.isInteger(b);
+        document.write("<br>"+ num);
+
+        var d = 234.2323232323
+        var num = d.toFixed(3);
+        document.write("<br>"+ num);
+
+        var num = d.toPrecision(4);
+        document.write("<br>"+ num);
+
+    </script>
+</body>
+</html>
