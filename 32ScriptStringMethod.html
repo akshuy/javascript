@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = "JavaScript is good language"
+
+        // it returns the length of string
+        var a = str.length;
+        document.write(a)
+
+        // it returns the lowercse of all string
+        var b = str.toLocaleLowerCase()
+        document.write("<br>"+b)
+
+        // it returns the uppercase of all string
+        var b = str.toLocaleUpperCase()
+        document.write("<br>"+b)
+
+        // it check the given string is present in string or not and returns the boolen value
+        var b = str.includes("is good")
+        document.write("<br>"+b) 
+
+        // it check the string is starts with given value or not and returns boolen value
+        var b = str.startsWith("J")
+        document.write("<br>"+b) 
+        
+        // it check the string is ends with given value of not and returns the boolen value
+        var b = str.endsWith("e")
+        document.write("<br>"+b) 
+        
+        // it search the given value is present in string and returns the index
+        var b = str.search("e")
+        document.write("<br>"+b) 
+        
+        // it check how much matchin is present in string
+        var b = str.match(/a/g);
+        document.write("<br>"+b) 
+
+        // it returns the index of value
+        var b = str.indexOf("i");
+        document.write("<br>"+b) 
+
+        // it check from ends of string and returns the index of value
+        var b = str.lastIndexOf("e");
+        document.write("<br>"+b) 
+
+        // it replace Javascript into Python
+        var b = str.replace("JavaScript","Python");
+        document.write("<br>"+b) 
+
+        // it cut the starting space from string and it work in alert box
+        var b = str.trim("JavaScript","Python");
+        document.write("<br>"+b) 
+
+        // it returns the value according to index
+        var b = str.charAt(3);
+        document.write("<br>"+b) 
+        
+        // it returns the ASCII value, of index
+        var b = str.charCodeAt(1);
+        document.write("<br>"+b) 
+        
+        // it returns the ASCII no, of given value
+        var b = String.fromCharCode(97);
+        document.write("<br>"+b) 
+
+        // it concate the strings
+        var b = str.concat(a);
+        document.write("<br>"+b)
+        
+        // it change space into ,
+        var b = str.split(" ");
+        document.write("<br>"+b)
+        
+        // it repate the string
+        var b = str.repeat(3);
+        document.write("<br>"+b)
+        
+        // it slice the string
+        var b = str.slice(0,5);
+        document.write("<br>"+b)
+
+        // strts with 7 index and return 4 index after 7 index
+        var b = str.substr(7,4);
+        document.write("<br>"+b)
+        
+        // starts with 3 index and return the value which is present 3,4 index whers 5 is excluding
+        var b = str.substring(3,5);
+        document.write("<br>"+b)  
+
+    </script>
+</body>
+</html>
